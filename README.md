@@ -8,7 +8,7 @@ A tutorial and PHP script for converting shapefiles (SHP) to KML files which can
 2. Update the top of the PHP script with the path to your KML file.
 3. Execute the PHP script.
 
-*Woot! You have a SQL file you can import into MySQL with.*
+*Woot! You have a SQL file to import into MySQL.*
 
 ## Full Tutorial
 
