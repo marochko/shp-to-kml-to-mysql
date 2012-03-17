@@ -338,3 +338,18 @@ h1 {
   left: 330px;
   top: 46px;
 }
+
+.sql-pma {
+  left: 228px;
+  top: 276px;
+}
+
+.sql-pma .overlay-box {
+  width: 78px;
+}
+
+.pma-arrow {
+  height: 190px;
+  left: 270px;
+  top: 86px;
+}
