@@ -1,11 +1,11 @@
 # SHP to KML to MySQL
 
-A tutorial and PHP script for converting shapefiles (SHP) to KML files which can then be parsed and turned into SQL for MySQL.
+A tutorial and PHP script for converting Shapefiles (SHP) to KML files, which can then be parsed and turned into SQL for MySQL.
 
 ## Quick Start
 
 1. Use [shp2kml](http://www.zonums.com/shp2kml.html) to convert the SHP file to a KML file. Select all the extended attributes you want in the final database.
-2. Update the top of the PHP script with the path to your KML file.
+2. Update the top of the PHP script with the path to your KML file and a new table name.
 3. Execute the PHP script.
 
 *Woot! You have a SQL file to import into MySQL.*
