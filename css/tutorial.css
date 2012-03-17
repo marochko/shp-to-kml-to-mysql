@@ -65,11 +65,14 @@ h1 {
 
 .overlays {
   left: 0;
+  margin: 0;
+  padding: 0;
   position: absolute;
   top: 0;
   width: 100%;
 
   font-size: 0.875em;
+  list-style-type: none;
 }
 
 .overlay {
@@ -177,11 +180,30 @@ h1 {
  * @section bubble-positions
  */
 
-#zip-lh {
-  left: 18px;
-  top: 156px;
+.select-shp {
+  left: 38px;
+  top: 102px;
 }
 
-#zip-lh .overlay-box {
-  width: 70px;
+.select-shp .overlay-box {
+  width: 386px;
+}
+
+.datum {
+  left: 43px;
+  top: 197px;
+}
+
+.datum .overlay-box {
+  width: 375px;
+}
+
+.utm {
+  left: 63px;
+  top: 277px;
+}
+
+.utm .overlay-box {
+  height: 90px;
+  width: 340px;
 }
