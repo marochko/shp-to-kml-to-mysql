@@ -216,3 +216,12 @@ h1 {
 .name-field .overlay-box {
   width: 174px;
 }
+
+.click-next {
+  left: 274px;
+  top: 410px;
+}
+
+.click-next .overlay-box {
+  width: 67px;
+}
