@@ -191,7 +191,8 @@ h1 {
   border-bottom: 4px solid #f33;
 }
 
-.arrow-d {
+.arrow-d,
+.arrow-u {
   border-left: 4px solid #f33;
 }
 
@@ -200,6 +201,24 @@ h1 {
 
   border-color: #f33 transparent;
   border-width: 10px 10px 0 10px;
+}
+
+.arrow-u:after {
+  border: 0;
+}
+
+.arrow-u:before {
+  content: "";
+  top: -10px;
+  height: 0;
+  position: absolute;
+  right: -8px;
+  width: 0;
+  z-index: 100;
+
+  border-color: #f33 transparent;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
 }
 
 /**
@@ -312,4 +331,10 @@ h1 {
 
 .php-table .overlay-box {
   width: 76px;
+}
+
+.url-arrow {
+  height: 100px;
+  left: 330px;
+  top: 46px;
 }

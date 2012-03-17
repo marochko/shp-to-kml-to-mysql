@@ -8,7 +8,7 @@
 <body id="edumedia">
   <h1>SHP to KML to MySQL</h1>
 
-  <p class="intro">Helps you to use Shapefile (SHP) open datasets, with your PHP and MySQL web application, by converting the SHP file into a SQL for importing into MySQL.</p>
+  <p class="intro">Helps you use Shapefile (SHP) open datasets, with your PHP and MySQL web application, by converting the SHP file into a SQL for importing into MySQL.</p>
 
   <ul class="setup">
     <li class="setup-download"><strong>Download your SHP open dataset.</strong></li>
@@ -25,7 +25,7 @@
           <li class="overlay select-shp"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Choose the <code>SHP</code> file.</span></li>
           <li class="overlay overlay-under datum"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Select the proper datum to match the <code>SHP</code> file.</span></li>
           <li class="overlay overlay-under utm"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Update the units to match the <code>SHP</code> file.</span></li>
-        </div>
+        </ol>
       </figure>
     </li>
     <li id="step-2">
@@ -34,7 +34,7 @@
         <figcaption class="step-caption">Select the correct field to represent the primary name of the place.</figcaption>
         <ol class="overlays">
           <li class="overlay name-field"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Choose the right field for the name.</span></li>
-        </div>
+        </ol>
       </figure>
     </li>
     <li id="step-3">
@@ -43,7 +43,7 @@
         <figcaption class="step-caption">Ignore the symbol selection step.</figcaption>
         <ol class="overlays">
           <li class="overlay click-next"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Just click <code>Next</code>.</span></li>
-        </div>
+        </ol>
       </figure>
     </li>
     <li id="step-4">
@@ -52,7 +52,7 @@
         <figcaption class="step-caption">Select the fields you want included in the KML dataset.</figcaption>
         <ol class="overlays">
           <li class="overlay select-all"><i class="overlay-box">&nbsp;</i><span class="overlay-text"><code>Select all fields</code> or check off only the ones you want.</span></li>
-        </div>
+        </ol>
       </figure>
     </li>
     <li id="step-5">
@@ -61,7 +61,7 @@
         <figcaption class="step-caption">Save the extracted KML file to the same location as the SHP file.</figcaption>
         <ol class="overlays">
           <li class="overlay create-kml"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Export the KML file.</span></li>
-        </div>
+        </ol>
       </figure>
     </li>
     <li id="step-6">
@@ -72,7 +72,7 @@
           <li class="overlay move-kml"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Move the KML file…</span></li>
           <li class="overlay move-www"><i class="overlay-box">&nbsp;</i><span class="overlay-text">to the <code>shp-to-kml-to-mysql</code> folder.</span></li>
           <span class="arrow arrow-dr move-arrow"></span>
-        </div>
+        </ol>
       </figure>
     </li>
     <li id="step-7">
@@ -82,7 +82,17 @@
         <ol class="overlays">
           <li class="overlay php-kml"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Change the KML file path to match your file.</span></li>
           <li class="overlay php-table"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Change the name of the table for your dataset.</span></li>
-        </div>
+        </ol>
+      </figure>
+    </li>
+    <li id="step-8">
+      <figure class="step">
+        <div class="step-img-wrap"><img class="step-img" src="images/shp-to-kml-8.png" alt=""></div>
+        <figcaption class="step-caption">Execute the <code>kml-to-mysql.php</code> script to create the SQL file for importing into MySQL.</figcaption>
+        <kbd class="overlay-url">localhost/bradlet/shp-to-kml-to-mysql/kml-to-mysql.php</kbd>
+        <ol class="overlays">
+          <span class="arrow arrow-u url-arrow"></span>
+        </ol>
       </figure>
     </li>
   </ol>
