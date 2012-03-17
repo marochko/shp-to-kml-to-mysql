@@ -20,89 +20,89 @@
     <li id="step-1">
       <figure class="step">
         <div class="step-img-wrap"><img class="step-img" src="images/shp-to-kml-1.png" alt=""></div>
-        <figcaption class="step-caption">Select the SHP file for conversion and update the options.</figcaption>
         <ol class="overlays">
           <li class="overlay select-shp"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Choose the <code>SHP</code> file.</span></li>
           <li class="overlay overlay-under datum"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Select the proper datum to match the <code>SHP</code> file.</span></li>
           <li class="overlay overlay-under utm"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Update the units to match the <code>SHP</code> file.</span></li>
         </ol>
+        <figcaption class="step-caption">Select the SHP file for conversion and update the options.</figcaption>
       </figure>
     </li>
     <li id="step-2">
       <figure class="step">
         <div class="step-img-wrap"><img class="step-img" src="images/shp-to-kml-2.png" alt=""></div>
-        <figcaption class="step-caption">Select the correct field to represent the primary name of the place.</figcaption>
         <ol class="overlays">
           <li class="overlay name-field"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Choose the right field for the name.</span></li>
         </ol>
+        <figcaption class="step-caption">Select the correct field to represent the primary name of the place.</figcaption>
       </figure>
     </li>
     <li id="step-3">
       <figure class="step">
         <div class="step-img-wrap"><img class="step-img" src="images/shp-to-kml-3.png" alt=""></div>
-        <figcaption class="step-caption">Ignore the symbol selection step.</figcaption>
         <ol class="overlays">
           <li class="overlay click-next"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Just click <code>Next</code>.</span></li>
         </ol>
+        <figcaption class="step-caption">Ignore the symbol selection step.</figcaption>
       </figure>
     </li>
     <li id="step-4">
       <figure class="step">
         <div class="step-img-wrap"><img class="step-img" src="images/shp-to-kml-4.png" alt=""></div>
-        <figcaption class="step-caption">Select the fields you want included in the KML dataset.</figcaption>
         <ol class="overlays">
           <li class="overlay select-all"><i class="overlay-box">&nbsp;</i><span class="overlay-text"><code>Select all Fields</code> or check off only the ones you want.</span></li>
         </ol>
+        <figcaption class="step-caption">Select the fields you want included in the KML dataset.</figcaption>
       </figure>
     </li>
     <li id="step-5">
       <figure class="step">
         <div class="step-img-wrap"><img class="step-img" src="images/shp-to-kml-5.png" alt=""></div>
-        <figcaption class="step-caption">Save the extracted KML file to the same location as the SHP file.</figcaption>
         <ol class="overlays">
           <li class="overlay create-kml"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Export the KML file.</span></li>
         </ol>
+        <figcaption class="step-caption">Save the extracted KML file to the same location as the SHP file.</figcaption>
       </figure>
     </li>
     <li id="step-6">
       <figure class="step">
         <div class="step-img-wrap"><img class="step-img" src="images/shp-to-kml-6.png" alt=""></div>
-        <figcaption class="step-caption">Move the new KML file to the <code>shp-to-kml-to-mysql</code> folder in your <code>wamp/www</code> folder.</figcaption>
         <ol class="overlays">
           <li class="overlay move-kml"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Move the KML file…</span></li>
           <li class="overlay move-www"><i class="overlay-box">&nbsp;</i><span class="overlay-text">to your <code>shp-to-kml-to-mysql</code> folder.</span></li>
-          <span class="arrow arrow-dr move-arrow"></span>
+          <li class="arrow arrow-dr move-arrow"></li>
         </ol>
+        <figcaption class="step-caption">Move the new KML file to the <code>shp-to-kml-to-mysql</code> folder in your <code>wamp/www</code> folder.</figcaption>
       </figure>
     </li>
     <li id="step-7">
       <figure class="step">
         <div class="step-img-wrap"><img class="step-img" src="images/shp-to-kml-7.png" alt=""></div>
-        <figcaption class="step-caption">Update the <code>kml-to-mysql.php</code> file with your details. The table name you set will be used to name the table when importing into MySQL.</figcaption>
         <ol class="overlays">
           <li class="overlay php-kml"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Change the KML file path to match your file.</span></li>
           <li class="overlay php-table"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Change the name of the table for your dataset.</span></li>
         </ol>
+        <figcaption class="step-caption">Update the <code>kml-to-mysql.php</code> file with your details. The table name you set will be used to name the table when importing into MySQL.</figcaption>
       </figure>
     </li>
     <li id="step-8">
       <figure class="step">
         <div class="step-img-wrap"><img class="step-img" src="images/shp-to-kml-8.png" alt=""></div>
-        <figcaption class="step-caption">Execute the <code>kml-to-mysql.php</code> script to create the SQL file for importing into MySQL.</figcaption>
         <kbd class="overlay-url">localhost/bradlet/shp-to-kml-to-mysql/kml-to-mysql.php</kbd>
         <ol class="overlays">
-          <span class="arrow arrow-u url-arrow"></span>
+          <li class="arrow arrow-u url-arrow"></li>
         </ol>
+        <figcaption class="step-caption">Execute the <code>kml-to-mysql.php</code> script to create the SQL file for importing into MySQL.</figcaption>
       </figure>
     </li>
     <li id="step-9">
       <figure class="step">
         <div class="step-img-wrap"><img class="step-img" src="images/shp-to-kml-9.png" alt=""></div>
-        <figcaption class="step-caption">Go to PHPMyAdmin and import the newly generated SQL. This will create a new table in your database with the name you specified above—and it will fill the table with your data. Your MySQL table and data <em>will</em> need some massaging afterwards.</figcaption>
         <ol class="overlays">
           <li class="overlay sql-pma"><i class="overlay-box">&nbsp;</i><span class="overlay-text">Import the SQL file with PHPMyAdmin.</span></li>
-          <span class="arrow arrow-u pma-arrow"></span>
-        </div>
+          <li class="arrow arrow-u pma-arrow"></li>
+        </ol>
+        <figcaption class="step-caption">Go to PHPMyAdmin and import the newly generated SQL. This will create a new table in your database with the name you specified above—and it will fill the table with your data. Your MySQL table and data <em>will</em> need some massaging afterwards.</figcaption>
       </figure>
     </li>
   </ol>
