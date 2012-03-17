@@ -225,3 +225,12 @@ h1 {
 .click-next .overlay-box {
   width: 67px;
 }
+
+.select-all {
+  left: 59px;
+  top: 343px;
+}
+
+.select-all .overlay-box {
+  width: 128px;
+}
