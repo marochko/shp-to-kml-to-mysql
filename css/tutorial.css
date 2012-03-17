@@ -207,3 +207,12 @@ h1 {
   height: 90px;
   width: 340px;
 }
+
+.name-field {
+  left: 133px;
+  top: 137px;
+}
+
+.name-field .overlay-box {
+  width: 174px;
+}
