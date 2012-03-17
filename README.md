@@ -12,7 +12,7 @@ A tutorial and PHP script for converting Shapefiles (SHP) to KML files, which ca
 
 ## Full Tutorial
 
-**<http://thomasjbradley.github.com/shp-to-kml-to-mysql>**
+**<http://thomasjbradley.github.com/shp-to-kml-to-mysql/>**
 
 ## License
 
