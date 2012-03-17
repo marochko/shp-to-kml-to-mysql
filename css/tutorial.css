@@ -295,3 +295,21 @@ h1 {
   top: 113px;
   width: 98px;
 }
+
+.php-kml {
+  left: 174px;
+  top: 198px;
+}
+
+.php-kml .overlay-box {
+  width: 108px;
+}
+
+.php-table {
+  left: 190px;
+  top: 252px;
+}
+
+.php-table .overlay-box {
+  width: 76px;
+}
