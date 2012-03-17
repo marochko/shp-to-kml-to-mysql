@@ -32,6 +32,32 @@ h1 {
   padding: 0;
 }
 
+.setup {
+  margin: 0 0 1.5em;
+  max-width: 80%;
+  padding: 0;
+
+  font-size: 1.25em;
+  list-style-type: none;
+  text-align: left;
+}
+
+.setup li {
+  margin: 0 0 0.75em;
+  position: relative;
+}
+
+.setup-download:before {
+  content: "⬇";
+  left: -1.2em;
+  position: absolute;
+  top: 0.1em;
+  width: 1em;
+
+  color: #aaa;
+  text-align: right;
+}
+
 .steps {
   margin: 0 auto;
   padding: 0;
@@ -242,4 +268,30 @@ h1 {
 
 .create-kml .overlay-box {
   width: 163px;
+}
+
+.move-kml {
+  left: 78px;
+  top: 36px;
+}
+
+.move-kml .overlay-box {
+  height: 67px;
+  width: 63px;
+}
+
+.move-www {
+  left: 224px;
+  top: 280px;
+}
+
+.move-www .overlay-box {
+  width: 83px;
+}
+
+.move-arrow {
+  height: 180px;
+  left: 110px;
+  top: 113px;
+  width: 98px;
 }
