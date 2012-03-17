@@ -234,3 +234,12 @@ h1 {
 .select-all .overlay-box {
   width: 128px;
 }
+
+.create-kml {
+  left: 54px;
+  top: 373px;
+}
+
+.create-kml .overlay-box {
+  width: 163px;
+}
