@@ -3,10 +3,10 @@
 /**** Configuration ****/
 
 // The KML file you want to process
-$kml_file = 'my-data.kml';
+$kml_file = 'dataset.kml';
 
 // The name of the table to create in the SQL file
-$table_name = 'basketball';
+$table_name = 'dataset';
 
 // Whether to escape the ampersands in the KML; shp2kml doesn't do it
 // Change only if you're having problems
